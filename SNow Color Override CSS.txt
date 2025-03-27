@@ -1,0 +1,86 @@
+ServiceNow customization properties sequence:
+
+inside "root":
+first section: header bar and side bar colors 
+second section: background colors
+third section: buttons (with borders and hovers)
+fourth section: calendar and field colors
+fifth section: internal note background
+sixth section: customize "high" priority ribbon from SNow lists (more vibrant yellow)
+seventh section: sidebar icon color
+
+full script:
+
+:host {
+    display: none;
+}
+
+:host :host{
+    display: none;
+}
+
+:root{
+--now-unified-nav_menu-scrollbar--color: 0, 67, 63 !important;
+--now-unified-nav_header--background-color: 0, 107, 103 !important;
+--now-toolbar-nav--background-color-start: 0, 197, 193 !important;
+--now-toolbar-nav--background-color-mid--now-button_icon--secondary--colordle: 0,0,0 !important;
+--now-toolbar-nav--background-color-end: 0,0,0 !important;
+
+--now-color_background--primary: 30,30,30 !important;
+--now-color_background--secondary: 40,40,40 !important;
+--now-color_background--tertiary: 10,207,203 !important;
+
+--now-button--secondary--border-color: 30, 137, 133 !important;
+--now-button--secondary--color: 30, 137, 133 !important;
+--now-button_icon--secondary--color: 30, 137, 133 !important;
+--now-button_icon--secondary--color--hover: 150, 257, 253 !important;
+--now-dropdown--secondary--border-color: 30, 137, 133 !important;
+--now-dropdown--secondary--color: 30, 137, 133 !important;
+--now-dropdown--secondary--background-color--hover: 150, 257, 253 !important;
+--now-dropdown--secondary--color--hover: 150, 257, 253 !important;
+--now-dropdown--secondary--border-color--hover: 150, 257, 253 !important;
+--now-button--secondary--background-color--hover: 150, 257, 253 !important;
+--now-button--secondary--border-color--hover: 150, 257, 253 !important;
+--now-button--secondary--color--hover: 150, 257, 253 !important;
+--now-button--primary--background-color: 30, 137, 133 !important;
+--now-button--primary--background-color--hover: 150, 257, 253 !important;
+--now-dropdown-list--background-color--focus: 30, 137, 133 !important;
+--now-color_focus-ring: 30, 137, 133 !important;
+
+--now-date-time_cell--background-color--selected_hover: 30, 137, 133 !important;
+--now-date-time_cell--background-color--selected: 150, 257, 253 !important;
+--now-date-time_cell--color--now_hover: 30, 137, 133 !important;
+--now-date-time_cell--color--now: 30, 137, 133 !important;
+--now-date-time_cell--background-color--now_hover: 30, 137, 133 !important;
+--now-date-time_cell--border-color--now_hover: 150, 257, 253 !important;
+--now-date-time_cell--border-color--now: 30, 137, 133 !important;
+--now-button-iconic--bare_secondary--color: 30, 137, 133 !important;
+--now-button-iconic--secondary--background-color--hover: 150, 257, 253 !important;
+--now-typeahead--background-color--hover: 30, 137, 133 !important;
+--now-select--background-color--hover: 30, 137, 133 !important;
+--now-select--border-color--hover: 30, 137, 133 !important;
+--now-typeahead--border-color--hover: 150, 257, 253 !important;
+--now-typeahead--border-color--active: 255,0,0 !important;
+--now-input--background-color--hover: 30, 137, 133 !important;
+--now-input--border-color--hover: 30, 137, 133 !important;
+--now-dropdown-list_sublabel--color: 240,240,240 !important;
+
+--now-color_grouped--yellow-0: 0, 107, 103 !important;
+
+--now-highlighted-value--tertiary_warning--background-color: 215,215,0 !important;
+--now-highlighted-value--tertiary_warning--color: 0,0,0 !important;
+
+--now-canvas-toolbar-button--color: 20,20,20 !important;
+}
+
+.polaris-header-menu {
+    background-color: 0,0,0 !important;
+}
+
+.polaris-header .center-header-zone {
+    background-color: 0,0,0 !important;
+}
+
+.polaris-header .ending-header-zone {
+    background-color: 0,0,0) !important;
+}
