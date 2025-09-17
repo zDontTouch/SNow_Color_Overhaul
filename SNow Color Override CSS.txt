@@ -22,7 +22,8 @@ full script:
 :root{
 --now-unified-nav_menu-scrollbar--color: 0, 67, 63 !important;
 --now-unified-nav_header--background-color: 0, 107, 103 !important;
---now-toolbar-nav--background-color-start: 0, 197, 193 !important;
+--now-toolbar-nav--background-color-start: 0,0,0 !important;
+--now-toolbar-nav--background-color-middle: x,y,z !important;
 --now-toolbar-nav--background-color-mid--now-button_icon--secondary--colordle: 0,0,0 !important;
 --now-toolbar-nav--background-color-end: 0,0,0 !important;
 
@@ -83,4 +84,5 @@ full script:
 
 .polaris-header .ending-header-zone {
     background-color: 0,0,0) !important;
+
 }
